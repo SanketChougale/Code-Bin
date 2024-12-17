@@ -1,0 +1,29 @@
+/* Styles for the container */
+.container {
+    max-width: 800px; /* Adjust as per your design */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add padding around the container */
+    background-color: #f0f0f0; /* Background color for the container */
+    border: 1px solid #ccc; /* Border for the container */
+}
+
+/* Styles for the list of items */
+.items {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+}
+
+/* Styles for list items */
+.item {
+    margin-bottom: 10px; /* Space between each item */
+    background-color: #fff; /* Background color for each item */
+    padding: 10px; /* Padding inside each item */
+    /* border: 1px solid #ccc; Border for each item */
+}
+
+/* Style for the "No Data" list item */
+.items li.no-data {
+    text-align: center; /* Center the text */
+    color: #999; /* Color of the text */
+    padding: 10px; /* Padding inside the item */
+}

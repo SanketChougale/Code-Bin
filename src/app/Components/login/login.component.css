@@ -1,0 +1,66 @@
+
+/* Style the container div */
+.container {
+    max-width: 400px;
+    margin: 200px;
+    margin-left: 500px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Style the heading */
+.container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+/* Style the input fields */
+.container input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the error messages */
+.red-text {
+    color: red;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    display: hidden;            /*display : hidden */
+}
+
+/* Style the buttons */
+.btn-green, .btn-red {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-green {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.btn-red {
+    background-color: #f44336;
+    color: white;
+}
+
+.btn-green:hover, .btn-red:hover {
+    opacity: 0.8;
+}
+
+.btn-green:disabled{
+    background-color: #ddd;
+    cursor: not-allowed;
+}

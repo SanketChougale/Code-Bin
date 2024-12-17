@@ -1,0 +1,53 @@
+
+/* Styles for the <div> containing the navigation */
+
+div {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Styles for the <nav> element */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+
+/* Styles for the <h2> element */
+nav h2 {
+    margin: 0;
+}
+
+/* Styles for the <a> elements inside <h2> */
+nav h2 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Styles for the <ul> element */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Styles for the <li> elements inside <ul> */
+nav ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+/* Styles for the <a> elements inside <li> */
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Styles for the active link */
+nav ul li a.active {
+    font-weight: bold;
+}

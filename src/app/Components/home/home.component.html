@@ -1,0 +1,16 @@
+<div class="container">
+    <ul class="items">
+
+        @if(items.length == 0){
+        <li>No Data</li>
+        }
+
+        @for(item of items; track item.id) {
+        <li class="item">
+            <a [routerLink]="['snippet', item.id]">{{item.title}}</a>
+        </li>
+        }
+
+
+    </ul>
+</div>

@@ -1,0 +1,19 @@
+<form class="container" [formGroup]="binForm">
+    <nav>
+        <H1> Code Snippet </H1>
+    </nav>
+
+    <div>
+        <div class="input">
+            <input class="text" placeholder="Title" [formControl]="title">
+            <h4 class="text" [hidden]="title.valid || title.untouched">Title required</h4>
+        </div>
+
+        <div class="enterCode">
+            <textarea class="text" placeholder="Code here..." [formControl]="code"></textarea>
+            <h4 class="text" [hidden]="code.valid || code.untouched">Code required</h4>
+        </div>
+    </div>
+
+    <button class="btn-btn-green" (click)="save()">Create</button>
+</form>
